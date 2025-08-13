@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting…</title>
+  <script>
+    (function() {
+      // Remove the old repo base from path and build new URL
+      var path = window.location.pathname.replace(/^\/ITP348-Physical-Computing/, '');
+      var search = window.location.search || '';
+      var hash = window.location.hash || '';
+
+      var newUrl = 'https://reparke.github.io/TAC348-Making-Smart-Devices' + path + search + hash;
+      window.location.replace(newUrl);
+    })();
+  </script>
+</head>
+<body>
+  <p>Redirecting… If you are not redirected, <a href="https://reparke.github.io/TAC348-Making-Smart-Devices">click here</a>.</p>
+</body>
+</html>
